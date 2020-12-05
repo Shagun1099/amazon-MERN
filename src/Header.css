@@ -19,9 +19,15 @@
 	height:22px !important;
 	background-color:#cd9042;
 }
+.header__left{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex:0.6;
+}
 .header_search{
 	display:flex;
-	flex:0.6;
+	flex:1;
 	align-items:center;
 	border-radius:24px;
 }
@@ -58,4 +64,11 @@
 	margin-left:10px;
 	margin-right:10px;
 	color:white;
+}
+@media only screen and (max-width: 420x), only screen and (max-device-width: 420px){
+ .header{
+	height:100px;
+	display:flex;
+	flex-direction:column;
+}	
 }

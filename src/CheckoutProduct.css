@@ -30,3 +30,8 @@
     font-size: 17px;
     font-weight: 800;
 }
+@media only screen and (max-width: 420x), only screen and (max-device-width: 420px){
+	.checkoutProduct_title{
+		font-size:15px;
+	}
+}

@@ -18,3 +18,16 @@
   padding: 10px;
   border-bottom: 1px solid lightgray;
 }
+@media only screen and (max-width: 420x), only screen and (max-device-width: 420px){
+	img.checkout_ad  {
+      display:none;
+     }
+	.checkout { 
+	 flex-direction:column-reverse;
+     margin-top: 90px;
+     width: 90vw;
+     padding: 5px;
+     margin: 90px auto;
+    }
+
+}

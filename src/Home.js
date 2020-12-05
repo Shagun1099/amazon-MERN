@@ -40,7 +40,7 @@ function Home() {
           />
 		  <Product
             id="23445930"
-            title="Envias Leatherette Handbags For Women's Ladies Combo Of 3 (PlusCombo_Maroon_EVS-109)"
+            title="Envias Leatherette Handbags For Women's Ladies Combo Of 3 PlusCombo Maroon EVS-109)"
             price={98.99}
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/41x6XOAoGTL.jpg"
